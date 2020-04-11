@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Covid-19 in Bangladesh
 
 You can use the [editor on GitHub](https://github.com/promitbasak/covid19bd.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
