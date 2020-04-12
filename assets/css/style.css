@@ -12,6 +12,7 @@
     padding: 10%;
   display: block;
   max-width: 80%;
+  overflow:scroll;
 }
   .photo-album  div:hover {
   background-color: white;
