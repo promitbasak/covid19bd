@@ -3,9 +3,10 @@
 @media screen and (max-width: 1200px) {
   .photo-album {
     display: block;
+    width:100%;
   }
   .photo-album  div {
-  width: 100%;
+  width: 90%;
   border: 1px solid gray;
 }
   .photo-album  div img{
