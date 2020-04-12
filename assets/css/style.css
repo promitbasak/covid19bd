@@ -28,13 +28,13 @@
 }
 
 .photo-album  div {
-  width: 45%;
+  width: 50%;
   border: 1px solid gray;
 }
 
 .photo-album  div img{
   display: block;
-  max-width: 40vw;
+  max-width: 35vw;
 }
 
 .photo-album  div h5 {
