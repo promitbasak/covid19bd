@@ -7,13 +7,13 @@
 }
 
 .photo-album  div {
-  width: 20%;
-  border: 1px solid deepskyblue;
+  width: 25%;
+  border: 1px solid gray;
 }
 
 .photo-album  div img{
   display: block;
-  max-width: 12vw;
+  max-width: 28vw;
 }
 
 .photo-album  div h5 {
@@ -22,7 +22,7 @@
 
 .photo-album  div:hover {
   background-color: white;
-  transform: scale(1.1,1.1);
+  transform: scale(1.5,1.5);
   transition: all 0.5s;
   z-index: 2;
 }
