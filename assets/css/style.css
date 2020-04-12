@@ -5,12 +5,13 @@
     display: block;
   }
   .photo-album  div {
-  width: 95%;
+  width: 100%;
   border: 1px solid gray;
 }
   .photo-album  div img{
+    padding: 10%;
   display: block;
-  max-width: 80vw;
+  max-width: 80%;
 }
   .photo-album  div:hover {
   background-color: white;
