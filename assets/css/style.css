@@ -14,7 +14,7 @@
   .photo-album  div img{
     padding: 10%;
   display: block;
-  max-width: 80%;
+  max-width: 60%;
   
 }
   .photo-album  div:hover {
