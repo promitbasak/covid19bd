@@ -3,17 +3,19 @@
 @media screen and (max-width: 1200px) {
   .photo-album {
     display: block;
-    width:100%;
+    width:80%;
+    overflow:scroll;
   }
   .photo-album  div {
   width: 90%;
   border: 1px solid gray;
+    overflow:scroll;
 }
   .photo-album  div img{
     padding: 10%;
   display: block;
   max-width: 80%;
-  overflow:scroll;
+  
 }
   .photo-album  div:hover {
   background-color: white;
