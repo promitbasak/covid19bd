@@ -3,7 +3,7 @@
 @media screen and (max-width: 1200px) {
   .photo-album {
     display: block;
-    width:80%;
+    width:95vw;
     overflow:scroll;
   }
   .photo-album  div {
