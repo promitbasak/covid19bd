@@ -73,6 +73,7 @@ code,pre{font-size:11px}}@media screen and (max-width: 320px){body{font-size:14p
     overflow:scroll;
 }
   .photo-album  div img{
+     text-align: center;
     padding: 10%;
   display: block;
     width: auto;
