@@ -89,11 +89,10 @@ code,pre{font-size:11px}}@media screen and (max-width: 320px){body{font-size:14p
 .photo-album {
   display: flex;
   flex-flow: column nowrap;
-  margin:0px 50px 40px 50px;
 }
 
 .photo-album  div {
-  width: 90%;
+  width: 95%;
   border: 1px solid gray;
 }
 
