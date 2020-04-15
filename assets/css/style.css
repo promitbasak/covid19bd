@@ -67,7 +67,6 @@ code,pre{font-size:11px}}@media screen and (max-width: 320px){body{font-size:14p
     flex-direction: column;
     flex-wrap: wrap
     width: auto;
-    overflow:scroll;
     justify-content: center;
   align-items: center;
   }
