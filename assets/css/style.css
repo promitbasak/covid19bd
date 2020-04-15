@@ -96,13 +96,14 @@ code,pre{font-size:11px}}@media screen and (max-width: 320px){body{font-size:14p
   .photo-album {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap
+    flex-wrap: wrap;
     width: 80vw;
     justify-content: center;
   align-items: center;
   }
   .photo-album  div {
-  width: auto;
+    box-sizing:border-box
+  width: 80vw;
   border: 1px solid gray;
   margin: 10px;
   text-align: center;
