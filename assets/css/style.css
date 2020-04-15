@@ -87,34 +87,36 @@ code,pre{font-size:11px}}@media screen and (max-width: 320px){body{font-size:14p
 }
   .photo-album  div:hover {
   background-color: white;
-  transform: scale(1.1,1.1);
+  transform: scale(1.2,1.2);
   transition: all 0.5s;
   z-index: 2;
 }
 }
 
-.photo-album {
-  display: flex;
-  flex-flow: column nowrap;
-}
-
-.photo-album  div {
-  width: 95%;
+  .photo-album {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+    width: auto;
+    justify-content: center;
+  align-items: center;
+  }
+  .photo-album  div {
+  width: auto;
   border: 1px solid gray;
-}
-
-
-.photo-album  div img{
-  display: inline-block;
+  overflow:scroll;
+  margin: 10px;
   text-align: center;
-  max-width: 75vw;
+    justify-content: center;
 }
-
-.photo-album  div h5 {
-  text-align: center;
+  .photo-album  div img{
+     text-align: center;
+    padding: 10%;
+  display: block;
+    width: auto;
+  
 }
-
-.photo-album  div:hover {
+  .photo-album  div:hover {
   background-color: white;
   transform: scale(1.1,1.1);
   transition: all 0.5s;
