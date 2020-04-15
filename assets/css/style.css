@@ -107,7 +107,6 @@ code,pre{font-size:11px}}@media screen and (max-width: 320px){body{font-size:14p
 .photo-album  div img{
   display: inline-block;
   text-align: center;
-  display: block;
   max-width: 75vw;
 }
 
