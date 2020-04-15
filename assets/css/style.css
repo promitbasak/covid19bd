@@ -71,7 +71,7 @@ code,pre{font-size:11px}}@media screen and (max-width: 320px){body{font-size:14p
   align-items: center;
   }
   .photo-album  div {
-  width: 75vw;
+  max-width: 100%;
   border: 1px solid gray;
   overflow:scroll;
   margin: 10px;
