@@ -63,14 +63,20 @@ code,pre{font-size:11px}}@media screen and (max-width: 320px){body{font-size:14p
 #project_title{font-size:28px}h1{font-size:24px}h2{font-size:21px}h3{font-size:18px}h4{font-size:16px}h5{font-size:14px}h6{font-size:12px}code,pre{min-width:240px;max-width:320px;font-size:11px}}
 @media screen and (max-width: 1200px) {
   .photo-album {
-    display: block;
-    width:95vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap
+    width: auto;
     overflow:scroll;
+    justify-content: center;
+  align-items: center;
   }
   .photo-album  div {
-  width: 90%;
+  width: auto;
   border: 1px solid gray;
-    overflow:scroll;
+  overflow:scroll;
+  margin: 10px;
+  text-align: center;
 }
   .photo-album  div img{
      text-align: center;
